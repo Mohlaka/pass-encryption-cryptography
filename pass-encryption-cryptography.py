@@ -14,6 +14,7 @@ def write_key():
         k.write(key)
     return key'''
 
+# Get key
 def read_key():
     with open("keyfile.key", "rb") as k:
         key = k.read()
